@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import consola from '../node_modules/consola'
-// const consola= require('consola')
+
 const date=new Date();
 const getYear=date.getFullYear()
 
@@ -14,7 +14,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
       </header>
-      <main >
+      <main>
         <h1>First App in React</h1>
         <button onClick={handleClick}>Clicca</button>
       </main>
